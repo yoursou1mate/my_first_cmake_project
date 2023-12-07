@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0EF8E10F37654DFFB7005C3B /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E3305BCBD2034FB6AD5A1C56 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				A3C5FBB0C6D32BE192313559 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		7EE197D3943E4E958ADC506A /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7B1287E60EB2491EB23D28B1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				3AFD8D748542E10F168215AC /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				7473297EAB994A5C9F25D7A3 /* PBXTargetDependency */,
+				B386E8FC98B941D6983DB69C /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		064ECA77157A4A09B26493F4 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/my_first_cmake_project/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = D7AD80C48C8645C180520253 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/my_first_cmake_project/CMakeLists.txt */; };
+		CF374B454B7F4D4C86A42380 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/my_first_cmake_project/my_first_cmake_program.cpp */ = {isa = PBXBuildFile; fileRef = 0C744F5EAC184940BEA5DF3A /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/my_first_cmake_project/my_first_cmake_program.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		250BFF8ED2FC428CA51411BF /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		5C4AE729144F4B13A8C7A947 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		8818B25B25514321AE9ED2C1 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		A137B153F9344ED788162BC7 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0F43CE8ECDF14641871B2E05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25B08FE234554668A45F9586 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47AEE2F00CCF4C78BE7A34B7;
+			remoteInfo = hello_cmake;
+		};
+		2FA2AACD18ED48E9A214907F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25B08FE234554668A45F9586 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EF8E10F37654DFFB7005C3B;
+			remoteInfo = ZERO_CHECK;
+		};
+		48FE5A011F104E669A680C7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25B08FE234554668A45F9586 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EF8E10F37654DFFB7005C3B;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C744F5EAC184940BEA5DF3A /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/my_first_cmake_project/my_first_cmake_program.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = my_first_cmake_program.cpp; path = my_first_cmake_program.cpp; sourceTree = SOURCE_ROOT; };
+		A2D97D2B520F4BAA941B04A3 /* hello_cmake */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = hello_cmake; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7AD80C48C8645C180520253 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/my_first_cmake_project/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F4E2801025524A62AE61F23B /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/my_first_cmake_project/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B464C555D124084BCE56E63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		193372DB280E4F8195B54AEE /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				99DC008446F84F4FB0A16E6E /* CMake Rules */,
+				F4E2801025524A62AE61F23B /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/my_first_cmake_project/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		2CBFC6FC28B34D0982CF1747 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2D97D2B520F4BAA941B04A3 /* hello_cmake */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34E54F8EB23143E181683A05 /* hello_cmake */ = {
+			isa = PBXGroup;
+			children = (
+				BA9DB85B3FE64C1B8B12C0FB /* Source Files */,
+				D7AD80C48C8645C180520253 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/my_first_cmake_project/CMakeLists.txt */,
+			);
+			name = hello_cmake;
+			sourceTree = "<group>";
+		};
+		941963D1F20A4879A222707B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99DC008446F84F4FB0A16E6E /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		BA9DB85B3FE64C1B8B12C0FB /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C744F5EAC184940BEA5DF3A /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/my_first_cmake_project/my_first_cmake_program.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		DC666E6D23A2493AAAB23F2D = {
+			isa = PBXGroup;
+			children = (
+				34E54F8EB23143E181683A05 /* hello_cmake */,
+				193372DB280E4F8195B54AEE /* ALL_BUILD */,
+				2CBFC6FC28B34D0982CF1747 /* Products */,
+				941963D1F20A4879A222707B /* Frameworks */,
+				E68F353B6F0C424ABD221591 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		E68F353B6F0C424ABD221591 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47AEE2F00CCF4C78BE7A34B7 /* hello_cmake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04249E48D516411589412FB5 /* Build configuration list for PBXNativeTarget "hello_cmake" */;
+			buildPhases = (
+				1A9C3788BEE64C2BB9AEB818 /* Sources */,
+				4B464C555D124084BCE56E63 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19063D04695A4A9386EBC72C /* PBXTargetDependency */,
+			);
+			name = hello_cmake;
+			productName = hello_cmake;
+			productReference = A2D97D2B520F4BAA941B04A3 /* hello_cmake */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25B08FE234554668A45F9586 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1420;
+			};
+			buildConfigurationList = C7E786251C6D4485B46A4E63 /* Build configuration list for PBXProject "my_first_cmake_project" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				5C4AE729144F4B13A8C7A947 /* Debug */,
+				8818B25B25514321AE9ED2C1 /* Release */,
+				250BFF8ED2FC428CA51411BF /* MinSizeRel */,
+				A137B153F9344ED788162BC7 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = DC666E6D23A2493AAAB23F2D;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				7EE197D3943E4E958ADC506A /* ALL_BUILD */,
+				0EF8E10F37654DFFB7005C3B /* ZERO_CHECK */,
+				47AEE2F00CCF4C78BE7A34B7 /* hello_cmake */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AFD8D748542E10F168215AC /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/a/Desktop/Programming/Netology/cppm-homeworks/my_first_cmake_project/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/a/Desktop/Programming/Netology/cppm-homeworks/my_first_cmake_project
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/a/Desktop/Programming/Netology/cppm-homeworks/my_first_cmake_project
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/a/Desktop/Programming/Netology/cppm-homeworks/my_first_cmake_project
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/a/Desktop/Programming/Netology/cppm-homeworks/my_first_cmake_project
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A3C5FBB0C6D32BE192313559 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/a/Desktop/Programming/Netology/cppm-homeworks/my_first_cmake_project/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/a/Desktop/Programming/Netology/cppm-homeworks/my_first_cmake_project
+  make -f /Users/a/Desktop/Programming/Netology/cppm-homeworks/my_first_cmake_project/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/a/Desktop/Programming/Netology/cppm-homeworks/my_first_cmake_project
+  make -f /Users/a/Desktop/Programming/Netology/cppm-homeworks/my_first_cmake_project/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/a/Desktop/Programming/Netology/cppm-homeworks/my_first_cmake_project
+  make -f /Users/a/Desktop/Programming/Netology/cppm-homeworks/my_first_cmake_project/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/a/Desktop/Programming/Netology/cppm-homeworks/my_first_cmake_project
+  make -f /Users/a/Desktop/Programming/Netology/cppm-homeworks/my_first_cmake_project/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A9C3788BEE64C2BB9AEB818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF374B454B7F4D4C86A42380 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/my_first_cmake_project/my_first_cmake_program.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19063D04695A4A9386EBC72C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EF8E10F37654DFFB7005C3B /* ZERO_CHECK */;
+			targetProxy = 48FE5A011F104E669A680C7D /* PBXContainerItemProxy */;
+		};
+		7473297EAB994A5C9F25D7A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EF8E10F37654DFFB7005C3B /* ZERO_CHECK */;
+			targetProxy = 2FA2AACD18ED48E9A214907F /* PBXContainerItemProxy */;
+		};
+		B386E8FC98B941D6983DB69C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47AEE2F00CCF4C78BE7A34B7 /* hello_cmake */;
+			targetProxy = 0F43CE8ECDF14641871B2E05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		123AD08283344F8D8FB81E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		2B8FA05671FB4C8AA85571B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/a/Desktop/Programming/Netology/cppm-homeworks/my_first_cmake_project/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = hello_cmake;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/a/Desktop/Programming/Netology/cppm-homeworks/my_first_cmake_project/build/hello_cmake.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		307EBFF0B6634E1089DC3D35 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/a/Desktop/Programming/Netology/cppm-homeworks/my_first_cmake_project/build";
+			};
+			name = MinSizeRel;
+		};
+		4A973907CBCF4E1BA5512F0E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/a/Desktop/Programming/Netology/cppm-homeworks/my_first_cmake_project/build";
+			};
+			name = RelWithDebInfo;
+		};
+		744FD27462F64611B4DF2A2A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		75D2C5164D694D3C91B43DC9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9381DF0B9BA447CDA0A2D7B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/a/Desktop/Programming/Netology/cppm-homeworks/my_first_cmake_project/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "   ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = hello_cmake;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/a/Desktop/Programming/Netology/cppm-homeworks/my_first_cmake_project/build/hello_cmake.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		9766289971A2402DB43D2C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		A5DC3A1624C9443AB7BAAB64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		AB91F26FBCE14932BACF3004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = "/Users/a/Desktop/Programming/Netology/cppm-homeworks/my_first_cmake_project/build";
+			};
+			name = Debug;
+		};
+		AE9B7F7D478F4291B03F1DAC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/a/Desktop/Programming/Netology/cppm-homeworks/my_first_cmake_project/MinSizeRel";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = hello_cmake;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/a/Desktop/Programming/Netology/cppm-homeworks/my_first_cmake_project/build/hello_cmake.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B39CFB7FB3634083B6BB0192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C1E18C93E38A4E48BC2AB1B7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C5BEFE02DAF243E5A56EC373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/a/Desktop/Programming/Netology/cppm-homeworks/my_first_cmake_project/build";
+			};
+			name = Release;
+		};
+		DF31F8F0E33C4D71A0D9419F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F73F72D0D43B4AAD97405FE2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/a/Desktop/Programming/Netology/cppm-homeworks/my_first_cmake_project/RelWithDebInfo";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = hello_cmake;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/a/Desktop/Programming/Netology/cppm-homeworks/my_first_cmake_project/build/hello_cmake.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04249E48D516411589412FB5 /* Build configuration list for PBXNativeTarget "hello_cmake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9381DF0B9BA447CDA0A2D7B9 /* Debug */,
+				2B8FA05671FB4C8AA85571B2 /* Release */,
+				AE9B7F7D478F4291B03F1DAC /* MinSizeRel */,
+				F73F72D0D43B4AAD97405FE2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7B1287E60EB2491EB23D28B1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B39CFB7FB3634083B6BB0192 /* Debug */,
+				A5DC3A1624C9443AB7BAAB64 /* Release */,
+				DF31F8F0E33C4D71A0D9419F /* MinSizeRel */,
+				C1E18C93E38A4E48BC2AB1B7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C7E786251C6D4485B46A4E63 /* Build configuration list for PBXProject "my_first_cmake_project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB91F26FBCE14932BACF3004 /* Debug */,
+				C5BEFE02DAF243E5A56EC373 /* Release */,
+				307EBFF0B6634E1089DC3D35 /* MinSizeRel */,
+				4A973907CBCF4E1BA5512F0E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E3305BCBD2034FB6AD5A1C56 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				123AD08283344F8D8FB81E52 /* Debug */,
+				9766289971A2402DB43D2C54 /* Release */,
+				744FD27462F64611B4DF2A2A /* MinSizeRel */,
+				75D2C5164D694D3C91B43DC9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25B08FE234554668A45F9586 /* Project object */;
+}

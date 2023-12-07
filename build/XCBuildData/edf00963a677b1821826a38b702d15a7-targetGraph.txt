@@ -1,0 +1,7 @@
+Target dependency graph (3 targets)
+ZERO_CHECK in my_first_cmake_project, no dependencies
+hello_cmake in my_first_cmake_project, depends on:
+ZERO_CHECK in my_first_cmake_project (explicit)
+ALL_BUILD in my_first_cmake_project, depends on:
+ZERO_CHECK in my_first_cmake_project (explicit)
+hello_cmake in my_first_cmake_project (explicit)
