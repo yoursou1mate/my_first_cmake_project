@@ -1,17 +1,17 @@
 {
   "_buildCommand2" : {
-    "command" : "build",
-    "skipDependencies" : false,
-    "style" : "buildOnly"
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
   },
   "buildCommand" : "build",
   "configuredTargets" : [
     {
-      "guid" : "7b10d74d396ab2c7da85dea8f533554d45e885c719df447589e6c2ba2ebc5564"
+      "guid" : "7b10d74d396ab2c7da85dea8f533554d52325af5e62194ea5e05822938a6987b"
     }
   ],
   "containerPath" : "/Users/a/Desktop/Programming/Netology/cppm-homeworks/my_first_cmake_project/my_first_cmake_project.xcodeproj",
-  "continueBuildingAfterErrors" : false,
+  "continueBuildingAfterErrors" : true,
   "enableIndexBuildArena" : false,
   "hideShellScriptEnvironment" : false,
   "parameters" : {
@@ -46,10 +46,11 @@
       }
     }
   },
+  "qos" : "default",
   "schemeCommand" : "launch",
   "schemeCommand2" : "launch",
   "showNonLoggedProgress" : true,
-  "useDryRun" : false,
+  "useDryRun" : true,
   "useImplicitDependencies" : true,
   "useLegacyBuildLocations" : false,
   "useParallelTargets" : true
